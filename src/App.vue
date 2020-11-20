@@ -2,18 +2,17 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <phoenix></phoenix>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Phoenix from './components/Phoenix.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    
     Phoenix,
   }
 }
